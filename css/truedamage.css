@@ -1,0 +1,55 @@
+:root{
+	--color-contenido:#808080;
+	--color-titulos:#222;
+	--color-primary:#28d1a2;
+	--color-negro:#000;
+	--fondo-gris:#f4f4f4;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	color: var(--color-contenido);
+	line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+#navbar{
+	align-content: center;
+}
+
+header{
+	position: relative;
+	background-color: #000;
+	width: 100%;
+	top:0;
+	border-bottom: 5px dashed rgba(255, 255, 255, 0.15);
+}
+
+#hero{
+	background-position: top center;
+	background-size: cover;
+	padding: 5% 0;
+	background-color: #E2E6EA;
+	font-size: 20px
+}
+
+#welcome{
+	background-color: #000000;
+	font-size: 18px;
+}
+
+#mission {
+background-color: #E2E6EA;
+}
+
+footer{
+	background-color: #282932;
+	background-size:cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+}
